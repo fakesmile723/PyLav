@@ -205,5 +205,11 @@ An example of the file can be found at [pylav.example.yaml](./pylav.example.yaml
 - Now that you have your env fully setup you can process to installing the desired cogs.
   - `[p]load downloader`
   - `[p]repo add PyLav https://github.com/PyLav/Red-Cogs`
+- Do a restart of the bot if needed using `[p]restart`.
+- To add the PyLav audio cog and start using it, do the following:
+  -`[p]unload audio` <<== this willl remove the core audio cog from your bot.
+  -`[p]cog install PyLav audio` this will add the PyLav audio cog to the bot.
+  -`[p]load audio` this will load PyLav audio cog into the bot.
+  - If you have any questions regarding this join the discord server [PyLav](https://discord.com/invite/vnmcXqtgeY) and create a post in [Support](https://discord.com/channels/970987707834720266/1079679213675761714)
  - For a list of all available cogs visit the [PyLav Cogs](https://github.com/PyLav/Red-Cogs) repo
 -------------
